@@ -1,0 +1,14 @@
+Linked list is the data structure in which elements are stored in nodes. Each nodes contains data and a pointer (or reference) to the next node in the sequence. 
+Linked list allow for efficient insertion and deletion of elements since they dont require the elements to be stored in contiguous memory locations.
+
+Types of linked lists
+1) Single linked list: each node points to the next node in the sequence
+2) Double linked list: each node points to both the next node and the previous node.
+3) Circular linked list: The last node points to the first node, forming a circular chain.
+
+Big O Notation: 
+1) access time: O(n)
+2) Search time: O(n)
+3) insertion time: O(1) (if the pointer to the node to be inserted is known)
+4) deletion time: O(1) (if the pointer to the node to be deleted is known)
+

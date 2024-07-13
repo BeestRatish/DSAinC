@@ -1,0 +1,27 @@
+/*
+Basic Info at first:
+array is the collection of element, all of the same type, stored in contagious memory locations
+1) to declare: we use: int fruits[4]; // this is an array of 4 fruits
+2) initialization: int fruits[4] = {"apple","banana","pineapple","strawberry"}
+3) if not all elements are initialized, the remaining elements will set to 0 by default
+    int fruits[5] = {"dragonfruit","kiwi"}
+4) accessing elements
+    int first = fruits[0];
+    fruits[4] = "orange";
+
+Advances Concepts: Multidimensional Arrays: 
+    2D arrays: array of arrays. int matrix[3][4];
+    int matrix[2][3] = {{1,3,5},{4,5,6}}
+
+accessing elements: 
+    int element = matrix[1][2];
+    matrix[0][1]=7;
+
+ArrayPointers
+    name of the array acts as a pointer to its first element.
+    int *ptr = numbers;
+pointer arithmetic can be used to navigate throught the array:
+    int value = *(ptr + 2);
+
+
+*/
