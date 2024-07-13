@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/gtk4/4.14.4/include", // GTK4 include path
+                "/opt/homebrew/opt/glib/include/glib-2.0", // GTK4 GLib include path
+                "/opt/homebrew/opt/glib/lib/glib-2.0/include", // GTK4 GLib library directory
+                "/opt/homebrew/lib/glib-2.0/include" // GTK4 GLib compatibility include path
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
